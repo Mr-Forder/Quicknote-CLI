@@ -5,13 +5,13 @@ A Node based CLI for quick note taking, tagging, and retrieval.
 ## To get Started
 
 ```
-**Install dependencies:**
+__Install dependencies:__
 npm install
 
-**Symlink:**
+__Symlink:__
 npm link
 
-**To unlink:**
+__To unlink:__
 npm unlink quicknote
 ```
 
