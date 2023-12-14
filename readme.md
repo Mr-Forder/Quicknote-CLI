@@ -5,40 +5,40 @@ A Node based CLI for quick note taking, tagging, and retrieval.
 ## To get Started
 
 ```
-*Install dependencies:*
+**Install dependencies:**
 npm install
 
-*Symlink:*
+**Symlink:**
 npm link
 
-*To unlink:*
+**To unlink:**
 npm unlink quicknote
 ```
 
 ## Using the CLI
 
 ```
-*List all commands*
+**List all commands**
 quicknote --help
 
-*Add a new note*
+**Add a new note**
 quicknote new "<note contents>"
 
-*Add a new note with tags*
+**Add a new note with tags**
 quicknote new "<note contents>" --tags "<tags, seperated, by, commas>"
 
-*List all notes*
+**List all notes**
 quicknote all
 
-*Find a note based on keyword(s)*
+**Find a note based on keyword(s)**
 quicknote find "<filter>"
 
-*Remove a note based on ID(s)*
+**Remove a note based on ID(s)**
 quicknote remove <id>
 
-*Remove all notes*
+**Remove all notes**
 quicknote purge
 
-*Launch local server to list notes*
+**Launch local server to list notes**
 quicknote web [port]
 ```
